@@ -1,0 +1,21 @@
+安装完git想要使用就必须设置用户名和邮箱 （只需要配置一次即可）
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+
+git命令
+
+# 克隆仓库
+git clone 仓库地址  
+
+# 暂存
+git add . 
+
+# 提交本地仓库
+git commit -m "提交信息"
+
+# 推送到远程仓库
+git push 
+
+# 拉取远程仓库最新内容
+git pull
